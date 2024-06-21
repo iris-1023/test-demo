@@ -67,7 +67,7 @@ public class CommunityApplicationTests implements ApplicationContextAware {
 	private SimpleDateFormat simpleDateFormat;
 
 	@Test
-	public void testDI() {
+	public void testID() {
 		System.out.println(alphaDao);
 		System.out.println(alphaService);
 		System.out.println(simpleDateFormat);
